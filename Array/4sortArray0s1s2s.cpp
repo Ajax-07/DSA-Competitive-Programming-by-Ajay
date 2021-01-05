@@ -31,7 +31,7 @@ int main(){
 
        int sortedArr[n]{0};
 
-        // cout << count_0 << count_1 << count_2;
+       
            for(int i=0; i<n; i++){
 
            if(arr[i] == 0)
