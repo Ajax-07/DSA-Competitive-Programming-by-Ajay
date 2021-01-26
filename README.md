@@ -1,11 +1,15 @@
-# GeeksForGeeks 450 CP Problem solving......
+# 450 CP Problem and different CP challenge......
 
-### Covered DSA 
+### Covered DSA with Competitive Programming.
 
 ### Language : C++
 
 ### Content 
 > * ####  Array - 36
 
-#### ~ recommend BY LOVE BABBAR
+### 30Day code challenge - GFG
+> * #### DAY 1 : prank (Array)
+> * #### DAY 2 : .....
+
+#### 450CP ~ recommend BY LOVE BABBAR
 
