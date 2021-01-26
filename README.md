@@ -7,7 +7,7 @@
 ### Content 
 > * ####  Array - 36
 
-### 30Day code challenge - GFG
+### 30Days code challenge - GFG
 > * #### DAY 1 : prank (Array)
 > * #### DAY 2 : .....
 
