@@ -9,7 +9,7 @@
 
 ### 30Days code challenge - GFG
 > * #### DAY 1 : prank (Array)
-> * #### DAY 2 : .....
+> * #### DAY 2 : Nth Natural Number (Mathematical)
 
 #### 450CP ~ recommend BY LOVE BABBAR
 
