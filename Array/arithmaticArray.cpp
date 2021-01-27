@@ -1,3 +1,10 @@
+
+/*
+  find the largest arithmetic aubarray
+
+  arithmatic array : difference btw consecutive element is same
+*/
+
 #include<bits/stdc++.h>
 using namespace std;
 

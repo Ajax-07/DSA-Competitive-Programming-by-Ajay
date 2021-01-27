@@ -1,3 +1,6 @@
+
+/*..........Write a program to cyclically rotate an array by one.....*/
+
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -16,7 +19,11 @@ int main() {
        int arr[n];
        
 
-       for(int i=0; i<n; i++)
+      /* 
+      
+      // rotate by one ..........
+
+      for(int i=0; i<n; i++)
            cin >> arr[(1+i)%n];
 
        for(int x : arr)
@@ -24,7 +31,7 @@ int main() {
 
          cout << endl; 
 
-/*
+    */
                
  //  ................in case of rotate by Kth index...............
                 
@@ -37,7 +44,7 @@ int main() {
 
                     cout << endl;
 
-    */
+    
    }
    return 0;
 }
