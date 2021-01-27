@@ -4,7 +4,7 @@
 
 ### Language : C++
 
-### 540 CP 
+### 450 CP 
 > * ####  Array - 36
 
 ### 30Days code challenge - GFG
