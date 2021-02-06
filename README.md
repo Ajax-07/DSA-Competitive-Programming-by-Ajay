@@ -5,11 +5,7 @@
 ### Language : C++
 
 ### 540 CP 
-> * ####  Array - 36
-
-### 30Days code challenge - GFG
-> * #### DAY 1 : prank (Array)
-> * #### DAY 2 : Nth Natural Number (Mathematical)
+> * ####  Array - (36)
 
 #### 450CP ~ recommend BY LOVE BABBAR
 
