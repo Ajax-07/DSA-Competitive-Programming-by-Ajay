@@ -1,25 +1,47 @@
-//............. find the index of given element in linked list..........
+
+//........... rotate linked list by N element........
+//........... Or , append last N node in first ..........
 
 #include<bits/stdc++.h>
 using namespace std;
 #include "NODE.cpp"
 
-  int findIndex(node* head,int data){
-      node* temp = head;
-      int index = 0;
+node* rotateList(node* head, int N){
+    node* temp1 = head;
+    int totalNode = 0;
+    while(temp1!=NULL){
+        temp1 = temp1->next;
+        totalNode++;
+    }
+    if(totalNode==1 || totalNode==0)
+      return head;
+    if(N==totalNode)
+      return head;  
+    
+    temp1 = head;
+    node* temp2 = head;
+    int k=0;
+    while(k<totalNode-N-1){
+        temp2=temp2->next;
+        k++;
+    }
+        
 
-      while(temp!=NULL){
-          if(temp->data == data)
-             break;
-          temp = temp->next;
-          index++;
-      } 
+    head = temp2->next;
+    temp2->next = NULL;
 
-      if(temp==NULL)
-        return -1;
+    temp2 = head; 
+     k=0; 
+    while(k<N-1){
+        temp2=temp2->next;
+        k++;
+    }
 
-      else return index;      
-  }
+    temp2->next = temp1;
+
+   return head;
+
+}
 
 //.........take input.......
 node* takeInput(){
@@ -62,5 +84,6 @@ int main(){
     node* head = takeInput();
     print(head);
     
-    cout << findIndex(head,4);
+    node* head2 = rotateList(head,8);
+    print(head2);
 }

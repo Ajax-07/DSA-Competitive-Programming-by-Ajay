@@ -1,32 +1,44 @@
-//............. find the index of given element in linked list..........
+//... print evry N Nodes after M node ..........................
 
 #include<bits/stdc++.h>
 using namespace std;
 #include "NODE.cpp"
+ 
+ node* removeNafterM(node* head, int m, int n){
+     node* temp1 = head;
+     node* temp2=NULL;
+    
+    while(temp1!=NULL){
+    int k=1;
+  
+     while(k<m && temp1!=NULL ){
+         temp1 = temp1->next;
+         k++; 
+        }
+     
+     if(temp1==nullptr)
+       return head;
 
-  int findIndex(node* head,int data){
-      node* temp = head;
-      int index = 0;
+    temp2 = temp1->next;
+    k=0;
+     while(k<n && temp2!=NULL){
+            temp2 = temp2->next;  
+            k++;
+         }
 
-      while(temp!=NULL){
-          if(temp->data == data)
-             break;
-          temp = temp->next;
-          index++;
-      } 
+     temp1->next = temp2;
+     temp1 = temp2;
+    }
 
-      if(temp==NULL)
-        return -1;
-
-      else return index;      
-  }
+    return head;
+}
 
 //.........take input.......
 node* takeInput(){
     int data;
     node* head=NULL;
     node* tail = NULL;
-    while(cin >> data){
+    while(cin >> data && data!=-1){
         node* newnode = new node(data);
         if(head == nullptr){
             head = newnode;
@@ -59,8 +71,16 @@ int main(){
        freopen("output.txt","w",stdout);
     #endif
 
-    node* head = takeInput();
-    print(head);
-    
-    cout << findIndex(head,4);
+      
+	 node* head = takeInput();
+	int m, n;
+
+    cin >> m >> n;
+     print (head);
+	
+     node* res = removeNafterM(head,m,n);
+	 print(res);
+	 
+   return 0;
+
 }

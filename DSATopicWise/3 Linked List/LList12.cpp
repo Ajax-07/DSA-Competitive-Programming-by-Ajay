@@ -1,32 +1,38 @@
-//............. find the index of given element in linked list..........
+//.......... reverse every k group of node in linked list ...........
 
 #include<bits/stdc++.h>
 using namespace std;
 #include "NODE.cpp"
 
-  int findIndex(node* head,int data){
-      node* temp = head;
-      int index = 0;
 
-      while(temp!=NULL){
-          if(temp->data == data)
-             break;
-          temp = temp->next;
-          index++;
-      } 
+ 
+node* reverseKGroup(node* head, int k) {
 
-      if(temp==NULL)
-        return -1;
+        node* prev = NULL;
+        node* next = NULL;
+        node* curr = head; 
+		int x = 0;
+        while(x<k && curr!=NULL){
+            next = curr->next;
+            curr->next = prev;
+            prev = curr;
+            curr = next;
 
-      else return index;      
-  }
+			x++;
+        }
+        
+		if(next != NULL)
+          head->next = reverseKGroup(next,k);
+        
+		return prev;
+    }
 
 //.........take input.......
 node* takeInput(){
     int data;
     node* head=NULL;
     node* tail = NULL;
-    while(cin >> data){
+    while(cin >> data && data!=-1){
         node* newnode = new node(data);
         if(head == nullptr){
             head = newnode;
@@ -59,8 +65,14 @@ int main(){
        freopen("output.txt","w",stdout);
     #endif
 
-    node* head = takeInput();
-    print(head);
-    
-    cout << findIndex(head,4);
+      
+	 node* head = takeInput();
+	 int k ; cin >> k;
+     print (head);
+	
+	 node* H = reverseKGroup(head,k);
+	 print(H);
+	 
+   return 0;
+
 }

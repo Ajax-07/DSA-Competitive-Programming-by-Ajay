@@ -1,32 +1,35 @@
-//............. find the index of given element in linked list..........
+
+//.............. Swap two given node in linked list .............
 
 #include<bits/stdc++.h>
 using namespace std;
 #include "NODE.cpp"
+ 
 
-  int findIndex(node* head,int data){
-      node* temp = head;
-      int index = 0;
+void SwapLL(node* head,int i, int j){
+    node* temp1 = head;
 
-      while(temp!=NULL){
-          if(temp->data == data)
-             break;
-          temp = temp->next;
-          index++;
-      } 
+    while(i--)
+      temp1 = temp1->next;
+    
+    j -=i+1;
+    node* temp2 = head;
+    
+     while(j--)
+       temp2 = temp2->next; 
 
-      if(temp==NULL)
-        return -1;
 
-      else return index;      
-  }
+      int k = temp1->data;
+      temp1->data = temp2->data;
+      temp2->data = k;
+} 
 
 //.........take input.......
 node* takeInput(){
     int data;
     node* head=NULL;
     node* tail = NULL;
-    while(cin >> data){
+    while(cin >> data && data!=-1){
         node* newnode = new node(data);
         if(head == nullptr){
             head = newnode;
@@ -59,8 +62,15 @@ int main(){
        freopen("output.txt","w",stdout);
     #endif
 
-    node* head = takeInput();
-    print(head);
-    
-    cout << findIndex(head,4);
+      
+	 node* head = takeInput();
+	 int i, j;
+     cin >> i >> j;
+     print (head);
+	 
+     SwapLL(head,i,j);
+	 print(head);
+	 
+   return 0;
+
 }

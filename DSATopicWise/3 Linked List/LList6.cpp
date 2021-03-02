@@ -1,25 +1,28 @@
-//............. find the index of given element in linked list..........
+
+//........... remove all duplicate in Linked List ...............
 
 #include<bits/stdc++.h>
 using namespace std;
 #include "NODE.cpp"
 
-  int findIndex(node* head,int data){
-      node* temp = head;
-      int index = 0;
+node* removeDup(node* head){
+    node* temp1 = head;
+    node* temp2 = head->next;
 
-      while(temp!=NULL){
-          if(temp->data == data)
-             break;
-          temp = temp->next;
-          index++;
-      } 
+    while(temp2!=NULL){
+        if(temp1->data == temp2->data)
+        
+          temp2 = temp2->next;
+        else{
+            temp1->next = temp2;
+            temp1 = temp2;
+            temp2 = temp2->next;
+        }
+    }
 
-      if(temp==NULL)
-        return -1;
-
-      else return index;      
-  }
+    temp1->next = temp2;
+    return head;
+}
 
 //.........take input.......
 node* takeInput(){
@@ -62,5 +65,6 @@ int main(){
     node* head = takeInput();
     print(head);
     
-    cout << findIndex(head,4);
+    node* head2 = removeDup(head);
+    print(head2);
 }

@@ -1,5 +1,6 @@
 using namespace std;
 
+// singly linked list ...............
 class node{
     public:
     int data;

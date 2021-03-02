@@ -1,26 +1,21 @@
-//............. find the index of given element in linked list..........
+//................. return midpoint of linked list ............
 
 #include<bits/stdc++.h>
 using namespace std;
 #include "NODE.cpp"
 
-  int findIndex(node* head,int data){
-      node* temp = head;
-      int index = 0;
+int midPoint(node* head ){
+    node* slow = head;
+    node* fast = head->next;
 
-      while(temp!=NULL){
-          if(temp->data == data)
-             break;
-          temp = temp->next;
-          index++;
-      } 
+    while(fast!=NULL && fast->next != NULL){
+        slow = slow->next;
+        fast = fast->next->next;
+    }
 
-      if(temp==NULL)
-        return -1;
-
-      else return index;      
-  }
-
+    return slow->data;
+}
+ 
 //.........take input.......
 node* takeInput(){
     int data;
@@ -62,5 +57,9 @@ int main(){
     node* head = takeInput();
     print(head);
     
-    cout << findIndex(head,4);
+    // 1st approach using length of linked list ..........
+    int mid = midPoint(head);
+    cout << mid ;
+
+    // 2nd approach .... find length and traverse upto (n-1)/2 and print ...
 }

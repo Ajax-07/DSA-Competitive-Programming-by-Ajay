@@ -1,26 +1,38 @@
-//............. find the index of given element in linked list..........
+
+//........... print reversed linked list ...............
 
 #include<bits/stdc++.h>
 using namespace std;
 #include "NODE.cpp"
 
-  int findIndex(node* head,int data){
-      node* temp = head;
-      int index = 0;
 
-      while(temp!=NULL){
-          if(temp->data == data)
-             break;
-          temp = temp->next;
-          index++;
-      } 
+// ......... Recursive approach ............
+void printReverse(node* head){
+    if(head == NULL)
+      return;
 
-      if(temp==NULL)
-        return -1;
+    printReverse(head->next);
+    cout << head->data << " ";
 
-      else return index;      
-  }
+}
 
+//other approach ................
+node* reversed(node* head){
+     node* temp = head;
+    
+    node* newList=NULL;
+    while(temp != NULL){
+         node* newnode = new node(temp->data);
+         if(newList == NULL)
+            newList = newnode;
+         else{
+             newnode->next = newList;
+             newList = newnode;
+         }   
+         temp=temp->next;
+    }
+  return newList;
+}
 //.........take input.......
 node* takeInput(){
     int data;
@@ -62,5 +74,11 @@ int main(){
     node* head = takeInput();
     print(head);
     
-    cout << findIndex(head,4);
+    //recursive approach .........
+    printReverse(head);
+    cout << endl;
+
+    // other approach may be in TC : O(N) & SC : O(N);
+    node *newList = reversed(head);
+
 }
