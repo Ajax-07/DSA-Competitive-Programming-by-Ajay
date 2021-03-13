@@ -1,0 +1,104 @@
+Enter root  data : 
+Enter Number of child for 1
+Enter the 0th data 
+Enter the 1th data 
+Enter the 2th data 
+Enter the 3th data 
+Enter the 4th data 
+Enter the 5th data 
+Enter the 6th data 
+Enter the 7th data 
+Enter the 8th data 
+Enter the 9th data 
+Enter Number of child for 10
+Enter the 0th data 
+Enter Number of child for 20
+Enter the 0th data 
+Enter Number of child for 30
+Enter the 0th data 
+Enter Number of child for 40
+Enter the 0th data 
+Enter Number of child for 50
+Enter the 0th data 
+Enter Number of child for 60
+Enter the 0th data 
+Enter Number of child for 70
+Enter the 0th data 
+Enter Number of child for 80
+Enter the 0th data 
+Enter Number of child for 90
+Enter the 0th data 
+Enter Number of child for 100
+Enter the 0th data 
+Enter Number of child for 110
+Enter the 0th data 
+Enter Number of child for 120
+Enter Number of child for 130
+Enter Number of child for 140
+Enter Number of child for 150
+Enter Number of child for 160
+Enter Number of child for 170
+Enter Number of child for 180
+Enter Number of child for 190
+Enter Number of child for 200
+Enter Number of child for 220
+Enter the 0th data 
+Enter Number of child for 230
+Enter the 0th data 
+Enter Number of child for 270
+Enter the 0th data 
+Enter the 1th data 
+Enter Number of child for 300
+Enter Number of child for 390
+1 : 10, 20, 30, 40, 50, 60, 70, 80, 90, 100
+10 : 110
+110 : 220
+220 : 230
+230 : 270
+270 : 300, 390
+300 : 
+390 : 
+20 : 120
+120 : 
+30 : 130
+130 : 
+40 : 140
+140 : 
+50 : 150
+150 : 
+60 : 160
+160 : 
+70 : 170
+170 : 
+80 : 180
+180 : 
+90 : 190
+190 : 
+100 : 200
+200 : 
+0 : 1, 1, 1, 1, 1, 1, 1, 1, 1, 1
+1 : 2
+2 : 3
+3 : 4
+4 : 5
+5 : 6, 6
+6 : 
+6 : 
+1 : 2
+2 : 
+1 : 2
+2 : 
+1 : 2
+2 : 
+1 : 2
+2 : 
+1 : 2
+2 : 
+1 : 2
+2 : 
+1 : 2
+2 : 
+1 : 2
+2 : 
+1 : 2
+2 : 

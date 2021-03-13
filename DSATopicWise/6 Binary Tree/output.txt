@@ -1,0 +1,48 @@
+10 20 40 30 50 70 80 60 
+10: L 20, R 30
+20: L 40, 
+40: 
+30: L 50, R 60
+50: L 70, R 80
+70: 
+80: 
+60: 
+
+
+Enter a root data : 
+Enter Data for Left Node Of 10 : 
+Enter Data for Left Node Of 20 : 
+Enter Data for Left Node Of 40 : 
+Enter Data for Right Node Of 40 : 
+Enter Data for Right Node Of 20 : 
+Enter Data for Right Node Of 10 : 
+Enter Data for Left Node Of 30 : 
+Enter Data for Left Node Of 50 : 
+Enter Data for Left Node Of 70 : 
+Enter Data for Right Node Of 70 : 
+Enter Data for Right Node Of 50 : 
+Enter Data for Left Node Of 80 : 
+Enter Data for Right Node Of 80 : 
+Enter Data for Right Node Of 30 : 
+Enter Data for Left Node Of 60 : 
+Enter Data for Right Node Of 60 : 
+10 20 40 30 50 70 80 60 
+10: L 20, R 30
+20: L 40, 
+40: 
+30: L 50, R 60
+50: L 70, R 80
+70: 
+80: 
+60: 
+
+
+
+10 : L 20, R 30
+20 : L 40, 
+30 : L 50, R 60
+40 : 
+50 : L 70, R 80
+60 : 
+70 : 
+80 : 
