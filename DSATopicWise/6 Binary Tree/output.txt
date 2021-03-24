@@ -1,48 +1,40 @@
-10 20 40 30 50 70 80 60 
-10: L 20, R 30
-20: L 40, 
-40: 
-30: L 50, R 60
-50: L 70, R 80
-70: 
-80: 
-60: 
+Enter Root Data : 
+Enter left child for 5 : 
+Enter right child for 5 : 
+Enter left child for 2 : 
+Enter right child for 2 : 
+Enter left child for 8 : 
+Enter right child for 8 : 
+Enter left child for 1 : 
+Enter right child for 1 : 
+Enter left child for 4 : 
+Enter right child for 4 : 
+Enter left child for 7 : 
+Enter right child for 7 : 
+Enter left child for 10 : 
+Enter right child for 10 : 
+Enter left child for 9 : 
+Enter right child for 9 : 
+10 8 5 
 
+Enter Root Data : 
+Enter left child for 1 : 
+Enter right child for 1 : 
+Enter left child for 2 : 
+Enter right child for 2 : 
+Enter left child for 3 : 
+Enter right child for 3 : 
+Enter left child for 4 : 
+Enter right child for 4 : 
+Enter left child for 5 : 
+Enter right child for 5 : 
+Enter left child for 6 : 
+Enter right child for 6 : 
+Enter left child for 7 : 
+Enter right child for 7 : 
+Enter left child for 8 : 
+Enter right child for 8 : 
+Enter left child for 9 : 
+Enter right child for 9 : 
+8 6 3 1 
 
-Enter a root data : 
-Enter Data for Left Node Of 10 : 
-Enter Data for Left Node Of 20 : 
-Enter Data for Left Node Of 40 : 
-Enter Data for Right Node Of 40 : 
-Enter Data for Right Node Of 20 : 
-Enter Data for Right Node Of 10 : 
-Enter Data for Left Node Of 30 : 
-Enter Data for Left Node Of 50 : 
-Enter Data for Left Node Of 70 : 
-Enter Data for Right Node Of 70 : 
-Enter Data for Right Node Of 50 : 
-Enter Data for Left Node Of 80 : 
-Enter Data for Right Node Of 80 : 
-Enter Data for Right Node Of 30 : 
-Enter Data for Left Node Of 60 : 
-Enter Data for Right Node Of 60 : 
-10 20 40 30 50 70 80 60 
-10: L 20, R 30
-20: L 40, 
-40: 
-30: L 50, R 60
-50: L 70, R 80
-70: 
-80: 
-60: 
-
-
-
-10 : L 20, R 30
-20 : L 40, 
-30 : L 50, R 60
-40 : 
-50 : L 70, R 80
-60 : 
-70 : 
-80 : 

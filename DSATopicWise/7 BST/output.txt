@@ -1,0 +1,77 @@
+Enter Root Node : 
+Enter Left node for 687: 
+Enter right node for 687: 
+687 
+
+687 
+
+Enter Root Node : 
+Enter Left node for 1177: 
+Enter right node for 1177: 
+Enter Left node for 416: 
+Enter right node for 416: 
+Enter Left node for 1474: 
+Enter right node for 1474: 
+Enter Left node for 364: 
+Enter right node for 364: 
+Enter Left node for 684: 
+Enter right node for 684: 
+Enter Left node for 1392: 
+Enter right node for 1392: 
+Enter Left node for 1498: 
+Enter right node for 1498: 
+Enter Left node for 694: 
+Enter right node for 694: 
+Enter Left node for 1456: 
+Enter right node for 1456: 
+Enter Left node for 1930: 
+Enter right node for 1930: 
+364 416 684 694 1177 1392 1456 1474 1498 1930 
+
+364 416 684 694 1177 1392 1456 1474 1498 1930 
+
+Enter Root Node : 
+Enter Left node for 1229: 
+Enter right node for 1229: 
+Enter Left node for 501: 
+Enter right node for 501: 
+Enter Left node for 1551: 
+Enter right node for 1551: 
+Enter Left node for 145: 
+Enter right node for 145: 
+Enter Left node for 627: 
+Enter right node for 627: 
+Enter Left node for 1382: 
+Enter right node for 1382: 
+Enter Left node for 1677: 
+Enter right node for 1677: 
+Enter Left node for 93: 
+Enter right node for 93: 
+Enter Left node for 289: 
+Enter right node for 289: 
+Enter Left node for 569: 
+Enter right node for 569: 
+Enter Left node for 677: 
+Enter right node for 677: 
+Enter Left node for 1334: 
+Enter right node for 1334: 
+Enter Left node for 1410: 
+Enter right node for 1410: 
+Enter Left node for 1556: 
+Enter right node for 1556: 
+Enter Left node for 1803: 
+Enter right node for 1803: 
+Enter Left node for 299: 
+Enter right node for 299: 
+Enter Left node for 1184: 
+Enter right node for 1184: 
+Enter Left node for 1482: 
+Enter right node for 1482: 
+Enter Left node for 1604: 
+Enter right node for 1604: 
+Enter Left node for 1862: 
+Enter right node for 1862: 
+93 145 289 299 501 569 627 677 1184 1229 1334 1382 1410 1482 1551 1556 1604 1677 1803 1862 
+
+93 145 289 299 501 569 627 677 1184 1229 1334 1382 1410 1482 1551 1556 1604 1677 1803 1862 
+
