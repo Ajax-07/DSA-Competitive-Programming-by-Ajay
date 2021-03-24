@@ -72,6 +72,21 @@ binaryTree<int>* takeInput(){
 return root;
 }
 
+/*
+
+I/P : 
+2
+5 2 8 1 4 7 10 -1 -1 -1 -1 -1 -1 9 -1 -1 -1 
+10
+1 2 3 4 5 6 7 -1 -1 -1 -1 8 9 -1 -1 -1 -1 -1 -1 
+8
+
+O/P : 
+10 8 5
+8 6 3 1
+
+*/
+
 int main(){
     #ifndef ONLINE_JUDGE
         freopen("input.txt","r",stdin);
