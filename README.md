@@ -18,3 +18,5 @@
  > * #### Tree - (10+)
  > * #### Binary Tree - (13+)
  > * #### Binary Search Tree - (10+)
+ > * #### Hashmap - (10+)
+ > * #### priority Queue/Heap - (10+)
