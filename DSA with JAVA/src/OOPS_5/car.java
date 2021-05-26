@@ -2,15 +2,24 @@
 
 package OOPS_5;
 
-public class car extends vehicle{
+public abstract class car extends vehicle{
 	int numGears;
 	boolean isConvertible;
+	
+	public car() {
+		super(100);
+	}
 	
 	public car(int numGears,int maxSpeed) {
 		super(maxSpeed);
 		this.numGears = numGears;
 		System.out.println("car");
 	}
+	
+	public boolean isMoterized() {
+		return true;
+	}
+	
 	
 	public void print() {
 		//System.out.println("speed of car : " + maxSpeed);

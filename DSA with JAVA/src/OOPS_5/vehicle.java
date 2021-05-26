@@ -1,6 +1,6 @@
 package OOPS_5;
 
-public class vehicle {
+public abstract class vehicle {
 	protected String color;
 	private int maxSpeed;
 	
@@ -16,6 +16,10 @@ public class vehicle {
 	public void setmaxSpeed(int maxSpeed) {
 		this.maxSpeed = maxSpeed;
 	}
+	
+	public abstract String getCompany();
+	
+	public abstract boolean isMoterized();
 	
 	public void print() {
 		System.out.println("color of vehicle : " + color);

@@ -1,4 +1,4 @@
-package test;
+package ajay;
 
 public class palindrome {
 

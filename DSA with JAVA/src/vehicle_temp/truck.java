@@ -1,9 +1,9 @@
-package vehicle_temp;
+ package vehicle_temp;
 
 import OOPS_5.vehicle;
 
 public class truck extends vehicle{
-	int capacity;
+	public int capacity;
 	
 	public truck() {
 		super(200);
@@ -15,5 +15,13 @@ public class truck extends vehicle{
 		color  = " yellow";
 		System.out.println("capacity of truck " + capacity);
 		System.out.println("capacity of truck " + color);
+	}
+	
+	public boolean isMoterized() {
+		return true;
+	}
+	
+	public String getCompany() {
+		return "abc";
 	}
 }

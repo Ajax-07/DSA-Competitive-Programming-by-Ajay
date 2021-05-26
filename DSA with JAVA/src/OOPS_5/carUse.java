@@ -4,7 +4,7 @@ public class carUse {
 
 	public static void main(String[] args) {
 		
-		vehicle v = new vehicle(100);
+		vehicle v = new BMW();
 		v.color = "red";
 		//v.maxSpeed = 180;
 		v.setmaxSpeed(100);
@@ -13,7 +13,7 @@ public class carUse {
 //		v.print();
 		
 		
-		car c = new car(6,100);
+		car c = new BMW();
 //		c.print();
 		
 		c.color = "black";
@@ -22,18 +22,23 @@ public class carUse {
 		c.numGears = 5;
 		c.isConvertible = true;
 		
-//		System.out.println(c.color);
-//		//System.out.println(c.maxSpeed);
-//		System.out.println(c.getmaxSpeed());
-//		System.out.println(c.numGears);
-//		System.out.println(c.isConvertible);
-//		
-//		c.print();
+		System.out.println(c.color);
+		//System.out.println(c.maxSpeed);
+		System.out.println(c.getmaxSpeed());
+		System.out.println(c.numGears);
+		System.out.println(c.isConvertible);
+		System.out.println(c.getCompany());
 		
-		vehicle v2 = new car(10,200);
+		c.print();
+		
+		vehicle v2 = new BMW();
 		
 		v2.color = "red";
 		//v2.numGears; //error
+		
+		vehicle2 v3 = new car2();
+		v3.setSpeed(9384757);
+		System.out.println(v3.getSpeed());
 	}
 
 }
