@@ -1,8 +1,18 @@
-/* .......  Reverse the array ...........*/
+// #1 - [https://www.geeksforgeeks.org/write-a-program-to-reverse-an-array-or-string/]
 
 #include<bits/stdc++.h>
 using namespace std;
+// string 
 
+string reverseWord(string str){
+    
+  //Your code here
+  if(str.size() == 0) return "";
+  
+  return reverseWord(str.substr(1)) + str[0];
+}
+
+// array
 void reverse(int arr[], int n){
  int start = 0;
  int end = n-1;

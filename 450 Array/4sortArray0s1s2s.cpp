@@ -1,6 +1,4 @@
-
-/*...Given an array which consists of only 0, 1 and 2. Sort the array without using any sorting algo.....
-*/
+// #4 - [https://practice.geeksforgeeks.org/problems/sort-an-array-of-0s-1s-and-2s4231/1]
 
 #include<bits/stdc++.h>
 using namespace std;

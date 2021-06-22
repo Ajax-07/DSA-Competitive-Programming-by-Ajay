@@ -1,6 +1,4 @@
-
-/*...Move all the negative elements to one side of the array ......*/
-
+// #5 - [https://www.geeksforgeeks.org/move-negative-numbers-beginning-positive-end-constant-extra-space/]
 #include<bits/stdc++.h>
 using namespace std;
 void Swap(int &a, int &b){

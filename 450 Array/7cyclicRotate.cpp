@@ -1,6 +1,4 @@
-
-/*..........Write a program to cyclically rotate an array by one.....*/
-
+// #7 - [https://practice.geeksforgeeks.org/problems/cyclically-rotate-an-array-by-one/0]
 #include<bits/stdc++.h>
 using namespace std;
 

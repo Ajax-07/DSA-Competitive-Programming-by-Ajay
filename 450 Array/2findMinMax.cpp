@@ -1,5 +1,4 @@
-
-/*........Find the maximum and minimum element in an array......*/
+// #2 - [https://www.geeksforgeeks.org/maximum-and-minimum-in-an-array/]
 
 #include<bits/stdc++.h>
 using namespace std;

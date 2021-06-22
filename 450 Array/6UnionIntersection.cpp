@@ -1,5 +1,4 @@
-/*......Find the Union and Intersection of the two sorted arrays......*/
-
+// #6 - [https://practice.geeksforgeeks.org/problems/union-of-two-arrays/0]
 #include<bits/stdc++.h>
 using namespace std;
 

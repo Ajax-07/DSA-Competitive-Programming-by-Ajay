@@ -1,10 +1,4 @@
-
-/*
-  find the largest arithmetic aubarray
-
-  arithmatic array : difference btw consecutive element is same
-*/
-
+// 9
 #include<bits/stdc++.h>
 using namespace std;
 
