@@ -7,6 +7,6 @@ public class node<T> {
 	
 	public node(T data) {
 		this.data = data;
-		left = right = null;         
+		left = right = null;          
 	}
 }
