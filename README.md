@@ -1,11 +1,11 @@
-# 450 CP Problem and different CP challenge......
+# 500 Most Asked problem With DSA
 
 ### Covered DSA with Competitive Programming.
 
 ### Language : C++ & JAVA
 ### IDE : VS code
 
-### 450 CP 
+### 500 Top MNC's Interview Problem 
 > * ####  Array 40+
 > * ####  Matrix - 10+
 > * ####  String - 30+
@@ -22,7 +22,7 @@
 > * ####  Dynamic Programing - 20+
 > * ####  Bit Manipulation - 10+
 
-#### 450CP ~ recommend BY LOVE BABBAR
+####  ~ recommend BY LOVE BABBAR & Pepcoding
 
 ### DSA with C++
 ### DSA with JAVA
