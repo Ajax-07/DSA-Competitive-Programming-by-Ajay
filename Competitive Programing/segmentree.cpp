@@ -23,6 +23,7 @@ void updateSegmentTree(int arr[], int tree[], int start, int end, int node, int 
 
     tree[node] = tree[node1]+tree[node2];
 }
+
 void makeSegmentTree(int arr[], int tree[], int start, int end, int node){
     if(start==end){
         tree[node] = arr[start];
@@ -59,11 +60,13 @@ int main(){
     
     cout << endl;
 
-    updateSegmentTree(arr, tree, 0, n-1, 1, 4, 20);   
+    updateSegmentTree(arr, tree, 0, n-1, 1, 4, 200);   
     for(int i=1; i<2*n; i++)
        cout << tree[i] << " ";
 
     cout << endl;
-    for(int i : arr) cout << i << " ";   
+    for(int i : arr) cout << i << " "; 
+
+    // cout << findSegmentSum(tree, (2*n), 1, 3,6);
     return 0;
 }
